@@ -836,8 +836,8 @@ from random import команды # Без random.ключевое слово т
 _.randint() # Принимает два обязательных аргумента a и b и возвращает случайное целое число из отрезка [a;b]
             # Takes two required arguments a and b and returns a random integer from the range [a;b]
 
-# Левая и правая граница a и b включаются в диапазон генерируемых случайных чисел. Результатом вызова функции random.randint(2, 9) может быть любое число от 22 до 99 включительно
-# The left and right borders of a and b are included in the range of random numbers generated. The result of calling the random.randint(2, 9) function can be any number from 22 to 99 inclusive
+# Левая и правая граница a и b включаются в диапазон генерируемых случайных чисел. Результатом вызова функции random.randint(2, 9) может быть любое число от 2 до 9 включительно
+# The left and right borders of a and b are included in the range of random numbers generated. The result of calling the random.randint(2, 9) function can be any number from 2 to 9 inclusive
 
 _.randrange() # Принимает такие же аргументы, что и функция range(). Различие состоит в том, что функция randrange() не возвращает саму последовательность чисел. Вместо этого она возвращает случайно выбранное число из последовательности чисел.
 # Takes the same arguments as the range() function. The difference is that the randrange() function does not return the actual sequence of numbers. Instead, it returns a randomly selected number from a sequence of numbers.
